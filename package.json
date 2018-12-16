@@ -2,12 +2,12 @@
     "private": true,
     "name": "myName",
     "engines": {
-        "node": "8.10.0"
+        "node": "10.14.2"
     },
     "scripts": {
-        "client": "cd packages/ferreiro-client && yarn start",
-        "server": "cd packages/ferreiro-server && yarn start",
-        "start": "yarn install && concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\"",
+        "client": "cd packages/client && yarn start",
+        "server": "cd packages/server && yarn start",
+        "start": "yarn install && concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
     },
     "workspaces": [
         "packages/*"
