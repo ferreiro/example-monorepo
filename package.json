@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "name": "myName",
+    "engines": {
+        "node": "8.10.0"
+    },
+    "scripts": {
+        "client": "cd packages/ferreiro-client && yarn start",
+        "server": "cd packages/ferreiro-server && yarn start",
+        "start": "yarn install && concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\"",
+    },
+    "workspaces": [
+        "packages/*"
+    ]
+}
