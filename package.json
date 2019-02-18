@@ -11,5 +11,8 @@
     },
     "workspaces": [
         "packages/*"
-    ]
+    ],
+    "dependencies": {
+        "concurrently": "4.1.0"
+    }
 }
