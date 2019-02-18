@@ -25,6 +25,8 @@ Each of the packages have their own `package.json` file, so they define their de
 
 ## How to install and execute
 
+> Important! The node version for the project is 10. Make sure you have that version installed in your computer. If you have NVM installed, run `nvm use 10`. If not, install it here: https://github.com/creationix/nvm#install-script
+
 1. Clone this repository locally `$ git clone https://github.com/ferreiro/example-monorepo.git`
 2. Install the dependencies. Inside the root `$ yarn install`
 3. Start both applications. `$ yarn start`
