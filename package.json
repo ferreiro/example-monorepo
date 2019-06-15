@@ -5,9 +5,9 @@
         "node": "10.14.2"
     },
     "scripts": {
-        "client": "cd packages/client && yarn start",
-        "server": "cd packages/server && yarn start",
-        "start": "yarn install && concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
+        "client": "yarn workspace client start",
+        "server": "yarn workspace server start",
+        "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
     },
     "workspaces": [
         "packages/*"
