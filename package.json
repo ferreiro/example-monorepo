@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "myName",
+    "name": "example-monorepo",
     "engines": {
         "node": "10.14.2"
     },
