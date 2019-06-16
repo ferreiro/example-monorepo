@@ -9,9 +9,7 @@
         "server": "yarn workspace server start",
         "start": "concurrently --kill-others-on-fail \"yarn server\"  \"yarn client\""
     },
-    "workspaces": [
-        "packages/*"
-    ],
+    "workspaces": ["packages/*"],
     "dependencies": {
         "concurrently": "4.1.0"
     }
