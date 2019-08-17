@@ -4,7 +4,7 @@
 
 Creating a monorepo project with React and Express.JS using Yarn Workspaces. This is the source code of a blog post I am writing about this topic.
 
-Read the article: {**TODO:** Add link to the article}
+Read the article: [Yarn Workspaces: Organize Your Project’s Codebase Like A Pro](https://www.smashingmagazine.com/2019/07/yarn-workspaces-organize-project-codebase-pro/)
 
 ## Project structure
 
